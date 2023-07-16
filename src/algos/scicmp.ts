@@ -50,7 +50,7 @@ export class manager extends AlgoManager {
   public async periodicTask() {
     dotenv.config()
 
-    const lists: string[] = `${process.env.SCIENCE_LISTS}`.split('|')
+    const lists: string[] = `${process.env.SCICMP_LISTS}`.split('|')
     const list_members: string[] = []
 
     for (let i = 0; i < lists.length; i++) {
