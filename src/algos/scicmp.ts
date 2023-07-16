@@ -122,7 +122,7 @@ export class manager extends AlgoManager {
   }
 
   public async filter_post(post: Post): Promise<Boolean> {
-    if (post.text.toLowerCase().includes(`${process.env.SCIENCE_SYMBOL}`)) {
+    if (post.text.toLowerCase().includes(`${process.env.SCICMP_SYMBOL}`)) {
       if (this.authorList.includes(post.author)) {
         return true
       }
