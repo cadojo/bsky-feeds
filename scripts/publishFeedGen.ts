@@ -17,7 +17,7 @@ const run = async () => {
   // A short name for the record that will show in urls
   // Lowercase with no spaces.
   // Ex: whats-hot
-  const recordName = 'scientific-computing'
+  const recordName = 'scicmp'
 
   // A display name for your feed
   // Ex: What's Hot
@@ -29,7 +29,7 @@ const run = async () => {
 
   // (Optional) The path to an image to be used as your feed's avatar
   // Ex: ~/path/to/avatar.jpeg
-  const avatar: string = 'images/testtube.jpg'
+  const avatar: string = 'images/scicmp.jpg'
 
   // -------------------------------------
   // NO NEED TO TOUCH ANYTHING BELOW HERE
