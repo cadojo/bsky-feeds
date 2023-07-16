@@ -10,7 +10,7 @@ import { Post } from '../db/schema'
 import dbClient from '../db/dbClient'
 
 // max 15 chars
-export const shortname = 'for-science'
+export const shortname = 'scientific-computing'
 
 export const handler = async (ctx: AppContext, params: QueryParams) => {
   const builder = await dbClient.getLatestPostsForTag(
